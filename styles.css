@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #dad7d7;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .logo img {
+    width: 27px;
+    height: 27px;
+  }
+  
+  .top-nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-nav li:not(:first-child) {
+    border-left: 1px solid black;
+  }
+  
+  .top-nav li {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  
+  .top-nav li:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+  }
+  
+  .header-conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 28px 28px;
+  }
+  
+  .equipe-notre-equipe {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 28px;
+  }
+  
+  .equipe-text,
+  .notre-text {
+    padding-top: 45px;
+    padding-bottom: 140px;
+  }
+  
+  .profile-boxes {
+    background-color: #ffffff;
+    width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .profile-images {
+    padding-bottom: 100px;
+  }
+  
+  .top-row,
+  .bottom-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+  }
+  
+  .antonella {
+    width: 230px;
+  }
+  
+  .antonella img {
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+  }
+  
+  .antonella .text {
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .info {
+    width: 230px;
+  }
+  
+  .top-nav nav {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1.2px;
+  }
+  
+  .title h3 {
+    font-size: 30px;
+    line-height: 43px;
+    letter-spacing: 9px;
+  }
+  
+  .title h4 {
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 5px;
+  }
+  
+  .equip-span {
+    font-size: 27.7px;
+    line-height: 48.6px;
+    letter-spacing: 1.11px;
+  }
+  
+  .notre-span {
+    font-size: 22px;
+    line-height: 44px;
+    letter-spacing: 0.88px;
+  }
+  
+  .equipe-text {
+    width: 600px;
+    font-size: 32.7px;
+    line-height: 48.6px;
+  }
+  
+  .notre-text {
+    width: 450px;
+    font-size: 25px;
+    line-height: 44px;
+  }
+  
+  .text h5 {
+    font-size: 14px;
+    line-height: 33.3px;
+    letter-spacing: 1.4px;
+  }
+  
+  .info {
+    font-size: 15px;
+    line-height: 33.3px;
+  }
+  
