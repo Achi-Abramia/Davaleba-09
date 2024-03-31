@@ -6,6 +6,13 @@
   
   body {
     background-color: #dad7d7;
+    font-family: "Brandon-bold";
+  }
+
+  .equipe-text,
+  .notre-text,
+  .info {
+    font-family: "Tisa-OT-regular";
   }
   
   a {
